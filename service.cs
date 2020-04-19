@@ -44,7 +44,7 @@ namespace RabbitMQ.Services
             }
         }
 
-        private void Customer()
+        private void Consumer()
         {
             var factory = new ConnectionFactory()
             {
